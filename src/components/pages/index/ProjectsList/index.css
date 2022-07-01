@@ -1,0 +1,31 @@
+.page-layout {
+  padding-top: 30px;
+}
+
+.container {
+  min-width: 990px;
+  gap: 15px;
+}
+
+.table-columns {
+  grid-template-columns: 40px repeat(4, 1fr);
+  padding: 0 10px;
+}
+
+.table {
+  width: 100%;
+  background-color: white;
+}
+
+.btn-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 32px;
+  color: #FFFFFF;
+  background-color: #8E0000;
+  border: none;
+  border-radius: 15px;
+  align-self: flex-end;
+}

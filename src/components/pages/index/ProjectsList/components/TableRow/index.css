@@ -1,0 +1,9 @@
+.row {
+  height: 60px;
+  border-bottom: 1px solid lightgray;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+}
